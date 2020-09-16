@@ -199,7 +199,7 @@ DungeonActionType DREAD_NECKLACE_RECIPE = new DungeonActionType($location[Dreads
 
 DungeonActionType [97] ACTION_TYPES = {
 	new DungeonActionType($location[none], "0", "combat", "none", -1, "defeated(?! by) +([A-Za-z0-9\-\. ]+?)( x ([0-9]+)|$)"),
-	new DungeonActionType($location[none], "0", "defeat", "none", -1, "defeated by +([A-Za-z0-9\. ]+?)( x ([0-9]+)|$)"),
+	new DungeonActionType($location[none], "0", "defeat", "none", -1, "defeated by +([A-Za-z0-9\-\. ]+?)( x ([0-9]+)|$)"),
 	new DungeonActionType($location[none], "0", "carriageman", "none", 2000, "got the carriageman ([0-9]+) sheet\\(s\\) drunker"),
 	// Dreadsylvania
 	new DungeonActionType($location[Dreadsylvanian Woods], "1,1,1", "item", "dread tarragon", -1, "acquired some dread tarragon"),
